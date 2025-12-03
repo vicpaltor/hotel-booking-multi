@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d3df44c-bbaf-4415-9329-ed3729363d59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/hotel/booking/application/repository/RoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/hotel/booking/application/repository/RoomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/hotel/booking/application/service/HotelServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/HotelBookingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/HotelBookingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/HotelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/HotelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/RoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/RoomMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/mapper/boot/mapper/HotelMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/mapper/HotelMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/hotel/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vicpaltor&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:vicpaltor/hotel-booking-multi.git&quot;,
+    &quot;accountId&quot;: &quot;b40b6699-2f34-4dde-b5b8-9586d35bb5b6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35LOkL0U48zjCHpEKEqHDbXfrXk" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HotelBookingApplication.executor": "Run",
+    "JUnit.HotelControllerTest.executor": "Run",
+    "JUnit.HotelControllerTest.getHotelById_shouldReturnHotelByIdAndStatus200WhenFound.executor": "Run",
+    "JUnit.HotelControllerTest.getHotelById_shouldReturnStatus404WhenNotFound.executor": "Run",
+    "JUnit.HotelMapperTest.executor": "Run",
+    "JUnit.HotelServiceTest.executor": "Run",
+    "JUnit.RoomControllerTest.contextLoads.executor": "Run",
+    "JUnit.RoomControllerTest.executor": "Run",
+    "JUnit.RoomControllerTest.shouldCreateRoomAndReturn201.executor": "Debug",
+    "JUnit.RoomServiceTest.executor": "Run",
+    "JUnit.RoomServiceTest.postCreateRoom_shouldCreateRoomSuccessfullyForExistingHotelId.executor": "Run",
+    "Maven.hotel-booking-parent [clean,install].executor": "Run",
+    "Maven.hotel-booking-parent [clean].executor": "Run",
+    "Maven.hotel-booking-parent [compile].executor": "Run",
+    "Maven.hotel-booking-parent [install].executor": "Run",
+    "Maven.hotel-booking-parent [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Victor/Desktop/Codigo Limpio/Workspace/Hotel Booking System/hotel-booking-multi",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hotel.booking.application.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.hotel.booking.boot.exceptionhandler" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hotel.booking.application.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hotel.booking.application.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hotel.booking.boot.controller" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value=" mvn compile" />
+      <command value="mvn compile" />
+      <command value="mvn test" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RoomControllerTest.shouldCreateRoomAndReturn201">
+    <configuration name="HotelBookingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.booking.boot.HotelBookingApplication" />
+      <module name="boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.booking.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.booking.boot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotel.booking.boot.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hotel.booking.boot.controller.HotelControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.booking.boot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotel.booking.boot.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hotel.booking.boot.controller.RoomControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomControllerTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.booking.boot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotel.booking.boot.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hotel.booking.boot.controller.RoomControllerTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomControllerTest.shouldCreateRoomAndReturn201" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.booking.boot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotel.booking.boot.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hotel.booking.boot.controller.RoomControllerTest" />
+      <option name="METHOD_NAME" value="shouldCreateRoomAndReturn201" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
+      <option name="passParentEnvironments" value="true" />
+      <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
+      <Liferay-Sever alternativeJrePath="" bundleLocation="" bundleType="" developerMode="true" gogoShellPort="11311" vmParameters="-Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m">
+        <envs>
+          <env name="PATH" value="$PROJECT_DIR$/../../../MoureDev/openjdk-24.0.2_windows-x64_bin/jdk-24.0.2/bin:C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Victor\Desktop\Codigo Limpio\MoureDev\openjdk-24.0.2_windows-x64_bin\jdk-24.0.2\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PowerShell\7\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\cursor\resources\app\bin;C:\Users\Victor\AppData\Local\Microsoft\WindowsApps;C:\Users\Victor\Desktop\P01\Programa\Intalar VSC\Microsoft VS Code\bin;C:\Users\Victor\.dotnet\tools;C:\Users\Victor\AppData\Roaming\npm;C:\Users\Victor\AppData\Roaming\Programs\Zero Install;C:\Users\Victor\.dotnet\tools" />
+          <env name="JAVA_HOME" value="$PROJECT_DIR$/../../../MoureDev/openjdk-24.0.2_windows-x64_bin/jdk-24.0.2" />
+        </envs>
+        <module name="application" />
+      </Liferay-Sever>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoomControllerTest.shouldCreateRoomAndReturn201" />
+        <item itemvalue="JUnit.RoomControllerTest.contextLoads" />
+        <item itemvalue="JUnit.RoomControllerTest" />
+        <item itemvalue="Application.HotelBookingApplication" />
+        <item itemvalue="JUnit.HotelControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d3df44c-bbaf-4415-9329-ed3729363d59" name="Changes" comment="" />
+      <created>1762886026997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762886026997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/controller/RoomControllerTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

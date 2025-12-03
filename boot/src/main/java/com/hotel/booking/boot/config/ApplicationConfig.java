@@ -1,8 +1,11 @@
 package com.hotel.booking.boot.config;
 
 import com.hotel.booking.application.mapper.HotelMapperPort;
+import com.hotel.booking.application.mapper.RoomMapperPort;
 import com.hotel.booking.application.repository.HotelRepository;
+import com.hotel.booking.application.repository.RoomRepository;
 import com.hotel.booking.application.service.HotelService;
+import com.hotel.booking.application.service.RoomService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -21,14 +24,12 @@ public class ApplicationConfig {
         return new HotelService(hotelMapperPort, hotelRepository);
     }
 
-    // Repite el patrón para otros servicios...
-    /*
     @Bean
     public RoomService roomService(
             RoomRepository roomRepository,
-            RoomMapperPort roomMapperPort
-    ) {
-        return new RoomService(roomMapperPort, roomRepository);
+            HotelRepository hotelRepository,
+            RoomMapperPort roomMapperPort) {
+        return new RoomService(roomRepository, hotelRepository, roomMapperPort);
     }
-    */
+
 }

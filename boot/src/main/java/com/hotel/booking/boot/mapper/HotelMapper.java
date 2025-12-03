@@ -17,5 +17,6 @@ import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
 public interface HotelMapper extends HotelMapperPort {
-
+    // Al extender la interfaz del puerto, MapStruct sabe que tiene que
+    // implementar los métodos toDto y toEntity automáticamente.
 }

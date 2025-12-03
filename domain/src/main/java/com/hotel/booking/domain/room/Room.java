@@ -15,14 +15,14 @@ import java.math.BigDecimal;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("com/hotel/booking/domain/room")
+@Table("room")
 public class Room {
 
     @Id
     @Column("id")
     private Long id;
 
-    @Column("room_rumber")
+    @Column("room_number")
     private String roomNumber;
 
     @Column("type")

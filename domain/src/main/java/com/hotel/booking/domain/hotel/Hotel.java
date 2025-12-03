@@ -1,9 +1,6 @@
 package com.hotel.booking.domain.hotel;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
@@ -24,13 +21,13 @@ import org.springframework.data.relational.core.mapping.Table;
  *
  * @Id: Anotación de Spring Data que marca el campo 'id' como la clave primaria de la tabla.
  */
-
+@Getter
+@Setter
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("com/hotel/booking/domain/hotel")
-
+@Table("hotel")
 public class Hotel {
     @Id
     @Column("id")
