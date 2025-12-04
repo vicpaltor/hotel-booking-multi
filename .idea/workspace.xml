@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3df44c-bbaf-4415-9329-ed3729363d59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/hotel/booking/application/repository/RoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/hotel/booking/application/repository/RoomRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/hotel/booking/application/service/HotelServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/HotelBookingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/HotelBookingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/config/ApplicationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/HotelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/controller/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/HotelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/HotelMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/RoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/mapper/RoomMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/mapper/boot/mapper/HotelMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/mapper/HotelMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/java/com/hotel/booking/boot/dto/ErrorResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/controller/RoomControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/controller/RoomControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/hotel/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/hotel/booking/domain/room/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/hotel/booking/infrastructure/repository/jdbc/JdbcHotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/hotel/booking/infrastructure/repository/jdbc/JdbcHotelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/hotel/booking/infrastructure/repository/jdbc/JdbcRoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/hotel/booking/infrastructure/repository/jdbc/JdbcRoomRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,35 +57,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HotelBookingApplication.executor": "Run",
-    "JUnit.HotelControllerTest.executor": "Run",
-    "JUnit.HotelControllerTest.getHotelById_shouldReturnHotelByIdAndStatus200WhenFound.executor": "Run",
-    "JUnit.HotelControllerTest.getHotelById_shouldReturnStatus404WhenNotFound.executor": "Run",
-    "JUnit.HotelMapperTest.executor": "Run",
-    "JUnit.HotelServiceTest.executor": "Run",
-    "JUnit.RoomControllerTest.contextLoads.executor": "Run",
-    "JUnit.RoomControllerTest.executor": "Run",
-    "JUnit.RoomControllerTest.shouldCreateRoomAndReturn201.executor": "Debug",
-    "JUnit.RoomServiceTest.executor": "Run",
-    "JUnit.RoomServiceTest.postCreateRoom_shouldCreateRoomSuccessfullyForExistingHotelId.executor": "Run",
-    "Maven.hotel-booking-parent [clean,install].executor": "Run",
-    "Maven.hotel-booking-parent [clean].executor": "Run",
-    "Maven.hotel-booking-parent [compile].executor": "Run",
-    "Maven.hotel-booking-parent [install].executor": "Run",
-    "Maven.hotel-booking-parent [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Victor/Desktop/Codigo Limpio/Workspace/Hotel Booking System/hotel-booking-multi",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HotelBookingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HotelControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HotelControllerTest.getHotelById_shouldReturnHotelByIdAndStatus200WhenFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HotelControllerTest.getHotelById_shouldReturnStatus404WhenNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HotelMapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HotelServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RoomControllerTest.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RoomControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RoomControllerTest.shouldCreateRoomAndReturn201.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RoomServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RoomServiceTest.postCreateRoom_shouldCreateRoomSuccessfullyForExistingHotelId.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hotel-booking-parent [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hotel-booking-parent [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hotel-booking-parent [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hotel-booking-parent [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hotel-booking-parent [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Victor/Desktop/Codigo Limpio/Workspace/Hotel Booking System/hotel-booking-multi&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hotel.booking.application.service" />
@@ -123,7 +117,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoomControllerTest.shouldCreateRoomAndReturn201">
+  <component name="RunManager" selected="Application.HotelBookingApplication">
     <configuration name="HotelBookingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hotel.booking.boot.HotelBookingApplication" />
       <module name="boot" />
@@ -207,8 +201,8 @@
     <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
       <Liferay-Sever alternativeJrePath="" bundleLocation="" bundleType="" developerMode="true" gogoShellPort="11311" vmParameters="-Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m">
         <envs>
-          <env name="PATH" value="$PROJECT_DIR$/../../../MoureDev/openjdk-24.0.2_windows-x64_bin/jdk-24.0.2/bin:C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Victor\Desktop\Codigo Limpio\MoureDev\openjdk-24.0.2_windows-x64_bin\jdk-24.0.2\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PowerShell\7\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\cursor\resources\app\bin;C:\Users\Victor\AppData\Local\Microsoft\WindowsApps;C:\Users\Victor\Desktop\P01\Programa\Intalar VSC\Microsoft VS Code\bin;C:\Users\Victor\.dotnet\tools;C:\Users\Victor\AppData\Roaming\npm;C:\Users\Victor\AppData\Roaming\Programs\Zero Install;C:\Users\Victor\.dotnet\tools" />
-          <env name="JAVA_HOME" value="$PROJECT_DIR$/../../../MoureDev/openjdk-24.0.2_windows-x64_bin/jdk-24.0.2" />
+          <env name="PATH" value="$PROJECT_DIR$/../../../MoureDev/jdk-21.0.2/bin:C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Victor\Desktop\Codigo Limpio\MoureDev\openjdk-24.0.2_windows-x64_bin\jdk-24.0.2\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PowerShell\7\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\cursor\resources\app\bin;C:\Users\Victor\AppData\Local\Microsoft\WindowsApps;C:\Users\Victor\Desktop\P01\Programa\Intalar VSC\Microsoft VS Code\bin;C:\Users\Victor\.dotnet\tools;C:\Users\Victor\AppData\Roaming\npm;C:\Users\Victor\AppData\Roaming\Programs\Zero Install;C:\Users\Victor\.dotnet\tools" />
+          <env name="JAVA_HOME" value="$PROJECT_DIR$/../../../MoureDev/jdk-21.0.2" />
         </envs>
         <module name="application" />
       </Liferay-Sever>
@@ -216,10 +210,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotelBookingApplication" />
         <item itemvalue="JUnit.RoomControllerTest.shouldCreateRoomAndReturn201" />
         <item itemvalue="JUnit.RoomControllerTest.contextLoads" />
         <item itemvalue="JUnit.RoomControllerTest" />
-        <item itemvalue="Application.HotelBookingApplication" />
         <item itemvalue="JUnit.HotelControllerTest" />
       </list>
     </recent_temporary>
@@ -234,16 +228,5 @@
       <updated>1762886026997</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/boot/src/test/java/com/hotel/booking/boot/controller/RoomControllerTest.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

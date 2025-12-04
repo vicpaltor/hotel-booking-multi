@@ -8,10 +8,13 @@ import java.util.List;
 import java.util.Optional;
 
 @Component
-@RequiredArgsConstructor
 public class JdbcRoomRepository implements RoomRepository {
 
     private final SpringRoomRepository repository;
+
+    public JdbcRoomRepository(SpringRoomRepository repository) {
+        this.repository = repository;
+    }
 
     @Override
     public Room save(Room room) {

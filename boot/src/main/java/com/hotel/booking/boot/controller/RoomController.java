@@ -11,10 +11,13 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api") // Mantenemos una ruta base genérica
-@RequiredArgsConstructor
 public class RoomController {
 
     private final RoomService roomService;
+
+    public RoomController(RoomService roomService) {
+        this.roomService = roomService;
+    }
 
     @PostMapping("/hotels/{hotelId}/rooms")
     @ResponseStatus(HttpStatus.CREATED)

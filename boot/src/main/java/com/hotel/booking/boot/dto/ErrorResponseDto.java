@@ -1,14 +1,33 @@
 package com.hotel.booking.boot.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
 import java.time.Instant;
 
-@Getter
-@AllArgsConstructor
 public class ErrorResponseDto {
     private final int status;
     private final String error;
     private final String message;
     private final Instant timestamp;
+
+    public ErrorResponseDto(int status, String error, String message, Instant timestamp) {
+        this.status = status;
+        this.error = error;
+        this.message = message;
+        this.timestamp = timestamp;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public String getError() {
+        return error;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public Instant getTimestamp() {
+        return timestamp;
+    }
 }

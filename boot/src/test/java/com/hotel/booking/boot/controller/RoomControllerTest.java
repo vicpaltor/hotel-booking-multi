@@ -48,32 +48,4 @@ class RoomControllerTest {
         assertThat(roomController).isNotNull();
     }
 
-//    @Test
-//    void shouldCreateRoomAndReturn201() throws Exception {
-//        final Long hotelId = 1L;
-//        CreateRoomRequestDto request = CreateRoomRequestDto.builder()
-//                .roomNumber("Suite Presidencial")
-//                .type(RoomType.SUITE)
-//                .pricePerNight(new BigDecimal("500.00"))
-//                .build();
-//
-//        RoomDto responseDto = RoomDto.builder()
-//                .id(10L)
-//                .hotelId(hotelId)
-//                .roomNumber("Suite Presidencial")
-//                .type(RoomType.SUITE)
-//                .pricePerNight(new BigDecimal("500.00"))
-//                .build();
-//
-//        when(roomService.createRoom(eq(hotelId), any(CreateRoomRequestDto.class)))
-//                .thenReturn(responseDto);
-//
-//        mockMvc.perform(post("/api/hotels/{hotelId}/rooms", hotelId)
-//                        .contentType(MediaType.APPLICATION_JSON)
-//                        .content(objectMapper.writeValueAsString(request)))
-//                .andExpect(status().isCreated()) // Esperamos 201 Created
-//                .andExpect(jsonPath("$.id", is(10)))
-//                .andExpect(jsonPath("$.hotelId", is(hotelId.intValue())))
-//                .andExpect(jsonPath("$.roomNumber", is("Suite Presidencial")));
-//    }
 }

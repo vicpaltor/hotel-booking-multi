@@ -8,10 +8,13 @@ import com.hotel.booking.application.repository.HotelRepository;
 import java.util.Optional;
 
 @Component
-@RequiredArgsConstructor
 public class JdbcHotelRepository implements HotelRepository {
 
     private final SpringHotelRepository repository; // La implementación real de Spring Data
+
+    public JdbcHotelRepository(SpringHotelRepository repository) {
+        this.repository = repository;
+    }
 
     @Override
     public Hotel save(Hotel hotel) { return repository.save(hotel); }

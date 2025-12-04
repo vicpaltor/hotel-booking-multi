@@ -15,10 +15,13 @@ import java.util.List;
 
 @RestController // Indica que es un controlador REST (devuelve JSON)
 @RequestMapping("/api/hotels")
-@RequiredArgsConstructor
 public class HotelController {
 
     private final HotelService hotelService;
+
+    public HotelController(HotelService hotelService) {
+        this.hotelService = hotelService;
+    }
 
     @GetMapping("/{id}")
     public HotelDto getHotelById(@PathVariable Long id) {

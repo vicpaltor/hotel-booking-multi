@@ -14,13 +14,10 @@
     <description>Módulo de Infraestructura (Adaptadores de Persistencia, etc.)</description>
 
     <dependencies>
-        <!-- Dependencia interna: infrastructure depende de application -->
         <dependency>
             <groupId>com.hotel.booking</groupId>
             <artifactId>application</artifactId>
         </dependency>
-
-        <!-- Dependencias de Spring para la persistencia -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jdbc</artifactId>
@@ -43,13 +40,12 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>21</source>
+                    <target>21</target>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <!-- La versión la gestiona el padre, no la pongas aquí -->
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
