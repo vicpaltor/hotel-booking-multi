@@ -1,0 +1,24 @@
+meta {
+  name: crear una nueva habitación
+  type: http
+  seq: 9
+}
+
+post {
+  url: {{base_url}}/api/hotels/1/rooms
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "roomNumber": "303",
+      "type": "DOUBLE",
+      "pricePerNight": 125.00
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

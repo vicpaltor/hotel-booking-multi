@@ -1,0 +1,27 @@
+meta {
+  name: Crear hotel
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{base_url}}/api/hotels
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Hotel Postman",
+    "address": "123 API Street",
+    "city": "Testville",
+    "country": "CodeLand",
+    "stars": 4,
+    "description": "Creado desde Postman"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,27 @@
+meta {
+  name: Update data
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{base_url}}/api/hotels/4
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Hotel Postman Actualizado",
+    "address": "456 Refactor Avenue",
+    "city": "Testville",
+    "country": "CodeLand",
+    "stars": 5,
+    "description": "¡Actualizado con éxito!"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,15 @@
+meta {
+  name: Eliminar hotel
+  type: http
+  seq: 7
+}
+
+delete {
+  url: {{base_url}}/api/hotels/4
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
