@@ -22,7 +22,7 @@ public class RoomService {
 
     public RoomDto createRoom(Long hotelId, CreateRoomRequestDto request) {
 
-        Boolean hotelExists = hotelRepository.existsById(hotelId);
+        boolean hotelExists = hotelRepository.existsById(hotelId);
 
         if (!hotelExists) {
             throw new HotelNotFoundException("No se puede crear una habitación para un hotel inexistente con id: " + hotelId);

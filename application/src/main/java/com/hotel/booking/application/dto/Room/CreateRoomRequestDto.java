@@ -17,7 +17,7 @@ public class CreateRoomRequestDto {
     @NotBlank(message = "El numero de la habitacion no puede estar vacío")
     private String roomNumber;
 
-    @NotBlank(message = "El tipo no puede estar vacío")
+    @NotNull(message = "El tipo no puede ser nulo")
     private RoomType type;
 
     @NotNull(message = "El precio por noche no puede ser nulo")

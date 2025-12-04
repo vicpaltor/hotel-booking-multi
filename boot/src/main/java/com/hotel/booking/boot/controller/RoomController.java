@@ -10,7 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api") // Mantenemos una ruta base genérica
 public class RoomController {
 
     private final RoomService roomService;
@@ -19,7 +18,7 @@ public class RoomController {
         this.roomService = roomService;
     }
 
-    @PostMapping("/hotels/{hotelId}/rooms")
+    @PostMapping("/api/hotels/{hotelId}/rooms")
     @ResponseStatus(HttpStatus.CREATED)
     public RoomDto createRoom(@PathVariable Long hotelId, @Valid @RequestBody CreateRoomRequestDto request) {
         return roomService.createRoom(hotelId, request);
